@@ -1,5 +1,12 @@
 package edu.shapes.rectangular;
 
-public class Square {
+import edu.shapes.AbstractShape;
+
+public class Square extends AbstractShape {
+
+	public float getArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 }

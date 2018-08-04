@@ -1,5 +1,7 @@
 package edu.shapes;
 
-public abstract class AbstractShape {
+import edu.shapes.interfaces.Shape;
+
+public abstract class AbstractShape implements Shape {
 
 }

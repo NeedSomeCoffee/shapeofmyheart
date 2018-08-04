@@ -1,5 +1,11 @@
 package edu.shapes.round;
 
-public class Circle {
+import edu.shapes.AbstractShape;
 
+public class Circle extends AbstractShape {
+
+	public float getArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
