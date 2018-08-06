@@ -7,6 +7,7 @@
 # Local config files
 .project
 .settings/*
+.classpath
 
 # Package Files #
 *.jar
