@@ -16,4 +16,13 @@ public class Circle extends AbstractShape {
 	public double getArea() {
 		return Math.PI * radius * radius;
 	}
+
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Circle [radius=");
+		builder.append(radius);
+		builder.append("]");
+		return builder.toString();
+	}
 }

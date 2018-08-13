@@ -34,4 +34,17 @@ public class Triangle extends AbstractShape {
 	private double getHalfPerimeter() {
 		return (sideOne + sideTwo + sideThree) / 2;
 	}
+
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Triangle [sideOne=");
+		builder.append(sideOne);
+		builder.append(", sideTwo=");
+		builder.append(sideTwo);
+		builder.append(", sideThree=");
+		builder.append(sideThree);
+		builder.append("]");
+		return builder.toString();
+	}
 }
