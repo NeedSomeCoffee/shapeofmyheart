@@ -1,17 +1,15 @@
 package edu.shapes.triangle;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
 
 public class TriangleTest {
 
 	@Test
-	public void getAreaTest() {
-		Triangle triangle = new Triangle(10, 10, 10);
+	public void givenValidSidesLength_ThenReturnValidAreaTest() {
+		Triangle triangle = new Triangle(10.2, 14.3, 9.8);
 		double area = triangle.getArea();
 		
-		assertTrue(area >= 99 && area <= 101);
-	}
-
+		assertTrue(area >= 49.96 && area <= 49.97);
+	}	
 }
